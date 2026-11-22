@@ -1,0 +1,48 @@
+{
+  "greenhouse": [
+    {
+      "company": "Groww",
+      "token": "groww",
+      "indian": true
+    },
+    {
+      "company": "InMobi",
+      "token": "inmobi",
+      "indian": true
+    },
+    {
+      "company": "Razorpay",
+      "token": "razorpaysoftwareprivatelimited",
+      "indian": true
+    }
+  ],
+  "lever": [
+    {
+      "company": "Meesho",
+      "token": "meesho",
+      "indian": true
+    },
+    {
+      "company": "CRED",
+      "token": "cred",
+      "indian": true
+    },
+    {
+      "company": "Zeta",
+      "token": "zeta",
+      "indian": true
+    }
+  ],
+  "ashby": [
+    {
+      "company": "Atlan",
+      "token": "atlan",
+      "indian": true
+    },
+    {
+      "company": "Sarvam AI",
+      "token": "sarvam",
+      "indian": true
+    }
+  ]
+}

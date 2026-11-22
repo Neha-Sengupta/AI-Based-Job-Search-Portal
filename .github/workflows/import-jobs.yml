@@ -1,0 +1,31 @@
+# Imports jobs every 6 hours by calling the live server.
+# Needs two repository secrets: SERVER_URL (the Render URL, e.g. https://job-portal-api.onrender.com)
+# and INTERNAL_API_KEY (the same value as on Render). The import is safe to run twice.
+name: Import jobs
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Wake the server (Render's free tier sleeps when idle)
+        run: curl --silent --show-error --retry 5 --retry-delay 20 --retry-all-errors --max-time 90 "$SERVER_URL/health"
+        env:
+          SERVER_URL: ${{ secrets.SERVER_URL }}
+
+      - name: Run the import
+        run: |
+          curl --fail-with-body --silent --show-error --max-time 900 \
+            -X POST "$SERVER_URL/internal/jobs/import" \
+            -H "X-Internal-Key: $INTERNAL_API_KEY"
+        env:
+          SERVER_URL: ${{ secrets.SERVER_URL }}
+          INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}

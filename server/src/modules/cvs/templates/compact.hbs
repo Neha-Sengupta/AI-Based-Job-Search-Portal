@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{basics.fullName}} – CV</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #fff; }
+  body {
+    font-family: Helvetica, Arial, "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 9pt;
+    line-height: 1.3;
+    color: #111;
+    font-variant-ligatures: none; /* "fi" stays two letters when ATS software copies the text */
+  }
+  @media screen { body { width: 210mm; padding: 12mm 14mm; } }
+  header { display: flex; justify-content: space-between; align-items: flex-end; gap: 12pt; }
+  h1 { font-size: 17pt; font-weight: 700; line-height: 1.1; }
+  .headline { font-size: 10pt; color: #444; margin-top: 1pt; }
+  .contact { list-style: none; text-align: right; font-size: 8.5pt; color: #333; max-width: 55%; }
+  .contact li { display: inline; }
+  .contact li + li::before { content: " · "; }
+  section { margin-top: 7pt; }
+  h2 {
+    font-size: 9pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6pt;
+    background: #ececec;
+    padding: 1.5pt 4pt;
+    margin-bottom: 3pt;
+  }
+  .entry { margin-bottom: 4pt; break-inside: avoid; }
+  .entry-head { display: flex; justify-content: space-between; gap: 10pt; }
+  h3 { font-size: 9pt; font-weight: 700; display: inline; }
+  .at { color: #333; }
+  .dates { white-space: nowrap; color: #444; }
+  .note { color: #444; }
+  ul { padding-left: 11pt; }
+  li { margin-bottom: 0.5pt; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>{{basics.fullName}}</h1>
+    {{#if basics.headline}}<p class="headline">{{basics.headline}}</p>{{/if}}
+  </div>
+  {{#if (hasItems contact)}}
+  <ul class="contact">{{#each contact}}<li>{{this}}</li>{{/each}}</ul>
+  {{/if}}
+</header>
+
+{{#if summary}}
+<section>
+  <h2>Summary</h2>
+  <p>{{summary}}</p>
+</section>
+{{/if}}
+
+{{#if (hasItems experience)}}
+<section>
+  <h2>Experience</h2>
+  {{#each experience}}
+  <div class="entry">
+    <div class="entry-head">
+      <div><h3>{{title}}</h3> <span class="at">| {{company}}{{#if location}}, {{location}}{{/if}}</span></div>
+      <span class="dates">{{dateRange startDate endDate current}}</span>
+    </div>
+    {{#if (hasItems bullets)}}<ul>{{#each bullets}}<li>{{this}}</li>{{/each}}</ul>{{/if}}
+  </div>
+  {{/each}}
+</section>
+{{/if}}
+
+{{#if (hasItems education)}}
+<section>
+  <h2>Education</h2>
+  {{#each education}}
+  <div class="entry">
+    <div class="entry-head">
+      <div><h3>{{#if degree}}{{degree}}{{else}}{{educationLevel level}}{{/if}}{{#if field}}, {{field}}{{/if}}</h3> <span class="at">| {{institution}}{{#if grade}} | {{grade}}{{/if}}</span></div>
+      <span class="dates">{{dateRange startDate endDate current}}</span>
+    </div>
+  </div>
+  {{/each}}
+</section>
+{{/if}}
+
+{{#if (hasItems skills)}}
+<section>
+  <h2>Skills</h2>
+  <p>{{join skills " · "}}</p>
+</section>
+{{/if}}
+
+{{#if (hasItems projects)}}
+<section>
+  <h2>Projects</h2>
+  {{#each projects}}
+  <div class="entry">
+    <div class="entry-head">
+      <div><h3>{{name}}</h3>{{#if (hasItems skills)}} <span class="at">| {{join skills ", "}}</span>{{/if}}</div>
+      {{#if url}}<span class="dates">{{displayUrl url}}</span>{{/if}}
+    </div>
+    {{#if description}}<p class="note">{{description}}</p>{{/if}}
+    {{#if (hasItems bullets)}}<ul>{{#each bullets}}<li>{{this}}</li>{{/each}}</ul>{{/if}}
+  </div>
+  {{/each}}
+</section>
+{{/if}}
+
+{{#if (hasItems certifications)}}
+<section>
+  <h2>Certifications</h2>
+  <ul>
+    {{#each certifications}}
+    <li><strong>{{name}}</strong>{{#if issuer}}, {{issuer}}{{/if}}{{#if date}} ({{formatDate date}}){{/if}}{{#if url}} – {{displayUrl url}}{{/if}}</li>
+    {{/each}}
+  </ul>
+</section>
+{{/if}}
+</body>
+</html>

@@ -1,0 +1,260 @@
+{
+  "greenhouse": [
+    {
+      "company": "Groww",
+      "token": "groww",
+      "indian": true
+    },
+    {
+      "company": "InMobi",
+      "token": "inmobi",
+      "indian": true
+    },
+    {
+      "company": "Glance",
+      "token": "glance",
+      "indian": true
+    },
+    {
+      "company": "Razorpay",
+      "token": "razorpaysoftwareprivatelimited",
+      "indian": true
+    },
+    {
+      "company": "Druva",
+      "token": "druva"
+    },
+    {
+      "company": "Sigmoid",
+      "token": "sigmoid"
+    },
+    {
+      "company": "HighRadius",
+      "token": "highradius"
+    },
+    {
+      "company": "HackerRank",
+      "token": "hackerrank"
+    },
+    {
+      "company": "Observe.AI",
+      "token": "observeai"
+    },
+    {
+      "company": "Sumo Logic",
+      "token": "sumologic"
+    },
+    {
+      "company": "Okta",
+      "token": "okta"
+    },
+    {
+      "company": "Zscaler",
+      "token": "zscaler"
+    },
+    {
+      "company": "Databricks",
+      "token": "databricks"
+    },
+    {
+      "company": "MongoDB",
+      "token": "mongodb"
+    },
+    {
+      "company": "Pure Storage",
+      "token": "purestorage"
+    },
+    {
+      "company": "Stripe",
+      "token": "stripe"
+    },
+    {
+      "company": "Rubrik",
+      "token": "rubrik"
+    },
+    {
+      "company": "GitLab",
+      "token": "gitlab"
+    },
+    {
+      "company": "Toast",
+      "token": "toast"
+    },
+    {
+      "company": "Smartsheet",
+      "token": "smartsheet"
+    },
+    {
+      "company": "Fivetran",
+      "token": "fivetran"
+    },
+    {
+      "company": "Celonis",
+      "token": "celonis"
+    },
+    {
+      "company": "Appian",
+      "token": "appian"
+    },
+    {
+      "company": "Twilio",
+      "token": "twilio"
+    },
+    {
+      "company": "Elastic",
+      "token": "elastic"
+    }
+  ],
+  "lever": [
+    {
+      "company": "Meesho",
+      "token": "meesho",
+      "indian": true
+    },
+    {
+      "company": "CRED",
+      "token": "cred",
+      "indian": true
+    },
+    {
+      "company": "Zeta",
+      "token": "zeta",
+      "indian": true
+    },
+    {
+      "company": "Paytm",
+      "token": "paytm",
+      "indian": true
+    },
+    {
+      "company": "Hevo Data",
+      "token": "hevodata",
+      "indian": true
+    },
+    {
+      "company": "Mindtickle",
+      "token": "mindtickle",
+      "indian": true
+    },
+    {
+      "company": "FamPay",
+      "token": "fampay",
+      "indian": true
+    },
+    {
+      "company": "Dozee",
+      "token": "dozee",
+      "indian": true
+    },
+    {
+      "company": "100ms",
+      "token": "100ms",
+      "indian": true
+    },
+    {
+      "company": "Gushwork",
+      "token": "gushwork",
+      "indian": true
+    },
+    {
+      "company": "Kenko AI",
+      "token": "kenko",
+      "indian": true
+    },
+    {
+      "company": "One Impression",
+      "token": "oneimpression",
+      "indian": true
+    },
+    {
+      "company": "Wayground",
+      "token": "Wayground"
+    },
+    {
+      "company": "Acceldata",
+      "token": "acceldata"
+    },
+    {
+      "company": "Level AI",
+      "token": "levelai"
+    },
+    {
+      "company": "Nium",
+      "token": "nium"
+    },
+    {
+      "company": "Drivetrain",
+      "token": "drivetrain"
+    },
+    {
+      "company": "Mactores",
+      "token": "mactores"
+    },
+    {
+      "company": "Neuron7",
+      "token": "neuron7"
+    },
+    {
+      "company": "Merkle Science",
+      "token": "merklescience"
+    },
+    {
+      "company": "Netomi",
+      "token": "netomi"
+    },
+    {
+      "company": "Brillio",
+      "token": "brillio-2"
+    },
+    {
+      "company": "HighLevel",
+      "token": "gohighlevel"
+    },
+    {
+      "company": "JumpCloud",
+      "token": "jumpcloud"
+    },
+    {
+      "company": "Perforce",
+      "token": "perforce"
+    },
+    {
+      "company": "Coupa",
+      "token": "coupa"
+    },
+    {
+      "company": "Dun & Bradstreet",
+      "token": "dnb"
+    }
+  ],
+  "ashby": [
+    {
+      "company": "Atlan",
+      "token": "atlan",
+      "indian": true
+    },
+    {
+      "company": "Sarvam AI",
+      "token": "sarvam",
+      "indian": true
+    },
+    {
+      "company": "SpotDraft",
+      "token": "spotdraft",
+      "indian": true
+    },
+    {
+      "company": "Bureau",
+      "token": "bureau",
+      "indian": true
+    },
+    {
+      "company": "Tekion",
+      "token": "tekion"
+    },
+    {
+      "company": "Headout",
+      "token": "headout"
+    }
+  ]
+}

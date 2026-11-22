@@ -1,0 +1,443 @@
+[
+  {
+    "text": "Aarav Mehta",
+    "x": 45,
+    "y": 69,
+    "width": 107.04,
+    "height": 18,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Aspiring Software Developer",
+    "x": 45,
+    "y": 84,
+    "width": 104.55,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "aarav.mehta@example.com | +91 98765 43210 | Pune, Maharashtra",
+    "x": 45,
+    "y": 95.25,
+    "width": 250.77,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "linkedin.com/in/aarav-mehta | github.com/aaravmehta",
+    "x": 45,
+    "y": 106.5,
+    "width": 196.11,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Career Objective",
+    "x": 45,
+    "y": 130.5,
+    "width": 77.5,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Motivated computer science graduate looking for an entry-level software developer role where I can build reliable web applications and",
+    "x": 45,
+    "y": 144.75,
+    "width": 490.69,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "keep learning from an experienced team.",
+    "x": 45,
+    "y": 156,
+    "width": 149.96,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Education",
+    "x": 45,
+    "y": 180,
+    "width": 47.13,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "XYZ Institute of Technology, Pune",
+    "x": 45,
+    "y": 198,
+    "width": 132.62,
+    "height": 8.25,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "2019 – 2023",
+    "x": 505.37,
+    "y": 198,
+    "width": 45.88,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "B.Tech in Computer Science and Engineering, CGPA: 8.4/10",
+    "x": 45,
+    "y": 209.25,
+    "width": 221.35,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Shri Vidya Junior College, Nashik",
+    "x": 45,
+    "y": 225.75,
+    "width": 131.43,
+    "height": 8.25,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "2017 – 2019",
+    "x": 505.37,
+    "y": 225.75,
+    "width": 45.88,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "12th (HSC), Science, 86.5%",
+    "x": 45,
+    "y": 237,
+    "width": 103.17,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Technical Skills",
+    "x": 45,
+    "y": 261,
+    "width": 72.44,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Languages: Java, Python, JavaScript, C++",
+    "x": 45,
+    "y": 276,
+    "width": 156.39,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Web: HTML, CSS, React, Node.js, Express",
+    "x": 45,
+    "y": 286.5,
+    "width": 158.49,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Databases & Tools: MySQL, MongoDB, Git, Postman",
+    "x": 45,
+    "y": 297.75,
+    "width": 194.27,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Projects",
+    "x": 45,
+    "y": 321.75,
+    "width": 38.48,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Smart Attendance System | React, Node.js, MongoDB",
+    "x": 45,
+    "y": 339.75,
+    "width": 209.21,
+    "height": 8.25,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "• Built a web app that marks attendance with QR codes for more than 200 students.",
+    "x": 50.25,
+    "y": 351,
+    "width": 304.64,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Added role-based login for teachers and admins using JWT.",
+    "x": 50.25,
+    "y": 361.5,
+    "width": 223.02,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Library Management Portal",
+    "x": 45,
+    "y": 378.75,
+    "width": 106.36,
+    "height": 8.25,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Source: https://github.com/aaravmehta/library-portal",
+    "x": 45,
+    "y": 390,
+    "width": 189.84,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Designed a Java desktop app with MySQL for issuing and returning books.",
+    "x": 50.25,
+    "y": 401.25,
+    "width": 277.74,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Internship",
+    "x": 45,
+    "y": 425.25,
+    "width": 47.13,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Web Development Intern",
+    "x": 45,
+    "y": 442.5,
+    "width": 96.57,
+    "height": 8.25,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Jun 2022 – Aug 2022",
+    "x": 473.25,
+    "y": 442.5,
+    "width": 77.99,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Bright Pixel Technologies Pvt Ltd, Pune",
+    "x": 45,
+    "y": 453.75,
+    "width": 143.86,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Developed",
+    "x": 50.25,
+    "y": 465,
+    "width": 44.63,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "fi",
+    "x": 97.17,
+    "y": 465,
+    "width": 4.12,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "ve responsive landing pages with React and Tailwind CSS.",
+    "x": 101.29,
+    "y": 465,
+    "width": 214.48,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Fixed bugs in the REST API written in Node.js and Express, which reduced reported errors by about thirty percent over the length of the",
+    "x": 50.25,
+    "y": 476.25,
+    "width": 499.38,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "internship and made releases calmer for the team.",
+    "x": 57,
+    "y": 487.5,
+    "width": 183.88,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Certi",
+    "x": 45,
+    "y": 511.5,
+    "width": 22.21,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "fi",
+    "x": 67.21,
+    "y": 511.5,
+    "width": 5.96,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "cations",
+    "x": 73.17,
+    "y": 511.5,
+    "width": 34.13,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "• Python for Everybody – Coursera (2021)",
+    "x": 50.25,
+    "y": 525.75,
+    "width": 153.3,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• AWS Certi",
+    "x": 50.25,
+    "y": 537,
+    "width": 42.93,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "fi",
+    "x": 93.18,
+    "y": 537,
+    "width": 4.12,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "ed Cloud Practitioner – Amazon Web Services (2023)",
+    "x": 97.3,
+    "y": 537,
+    "width": 195.2,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Personal Details",
+    "x": 45,
+    "y": 561,
+    "width": 75.87,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Date of Birth: 14/08/2001",
+    "x": 45,
+    "y": 575.25,
+    "width": 91.73,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Father's Name: Rajesh Mehta",
+    "x": 45,
+    "y": 586.5,
+    "width": 109.33,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Marital Status: Single",
+    "x": 45,
+    "y": 597.75,
+    "width": 77.95,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Languages Known: English, Hindi, Marathi",
+    "x": 45,
+    "y": 609,
+    "width": 155.47,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Declaration",
+    "x": 45,
+    "y": 633,
+    "width": 53.1,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "I hereby declare that the above information is true to the best of my knowledge.",
+    "x": 45,
+    "y": 647.25,
+    "width": 288.92,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Place: Pune",
+    "x": 45,
+    "y": 658.5,
+    "width": 44.49,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  }
+]

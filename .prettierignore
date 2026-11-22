@@ -1,0 +1,12 @@
+node_modules/
+.next/
+coverage/
+package-lock.json
+# Docs and learning material are hand-formatted Markdown.
+*.md
+learning/
+# Prettier's Handlebars formatter deletes <!doctype html> (quirks mode in Puppeteer).
+*.hbs
+server/.cache/
+# Saved real responses/pages for tests: keep them exactly as captured.
+**/__fixtures__/

@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "fullName": "Priya Sharma",
+    "headline": "Junior Full-Stack Developer (React, Node.js)",
+    "email": "priya.sharma@example.com",
+    "phone": "+91 98765 43210",
+    "location": "Pune, Maharashtra",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/priya-sharma-dev",
+      "github": "https://github.com/priyasharma-dev",
+      "portfolio": null
+    },
+    "showPhoto": false
+  },
+  "summary": "Full-stack developer with one year of professional experience building web applications in React and Node.js. Comfortable across the stack, from REST APIs and MongoDB schemas to accessible, responsive interfaces. Enjoys writing tests and turning vague requirements into small, shippable features.",
+  "skills": [
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "PostgreSQL",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Git",
+    "REST APIs",
+    "Jest",
+    "Docker"
+  ],
+  "experience": [
+    {
+      "title": "Junior Software Developer",
+      "company": "Finlytics Solutions Pvt. Ltd.",
+      "location": "Pune",
+      "startDate": "2024-07-01",
+      "endDate": null,
+      "current": true,
+      "bullets": [
+        "Built and maintained 12 REST endpoints in Node.js and Express for a loan-tracking dashboard used by 40+ branch managers.",
+        "Rewrote the customer search page in React with server-side pagination, cutting load time from 4.2 s to 0.9 s.",
+        "Added Jest and Supertest coverage to the payments module, raising test coverage from 35% to 78%.",
+        "Reviewed pull requests and paired with two new interns during their onboarding."
+      ]
+    },
+    {
+      "title": "Software Development Intern",
+      "company": "CodeCraft Technologies",
+      "location": "Bengaluru (Remote)",
+      "startDate": "2024-01-08",
+      "endDate": "2024-06-28",
+      "current": false,
+      "bullets": [
+        "Developed reusable form components in React and Tailwind CSS for an internal HR portal.",
+        "Wrote MongoDB aggregation queries for monthly attendance reports, replacing a manual Excel process."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pune Institute of Computer Technology, Savitribai Phule Pune University",
+      "degree": "B.E.",
+      "field": "Computer Engineering",
+      "level": "bachelor",
+      "startDate": "2020-08-01",
+      "endDate": "2024-06-01",
+      "current": false,
+      "grade": "CGPA 8.6/10"
+    },
+    {
+      "institution": "Fergusson College, Pune",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "field": "Science",
+      "level": "high_school",
+      "startDate": null,
+      "endDate": "2020-03-01",
+      "current": false,
+      "grade": "91.2%"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CampusConnect",
+      "description": "A placement-preparation platform for students of my college.",
+      "bullets": [
+        "Built mock-test and company-wise question bank features used by 600+ students.",
+        "Implemented role-based access for students, coordinators and admins with JWT authentication."
+      ],
+      "skills": ["Next.js", "Node.js", "MongoDB"],
+      "url": "https://github.com/priyasharma-dev/campus-connect"
+    },
+    {
+      "name": "Expense Splitter",
+      "description": "A mobile-friendly web app to split shared trip and flat expenses.",
+      "bullets": [
+        "Designed a settle-up algorithm that minimises the number of payments between friends."
+      ],
+      "skills": ["React", "Express", "PostgreSQL"],
+      "url": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "2024-11-15",
+      "url": null
+    },
+    {
+      "name": "Responsive Web Design",
+      "issuer": "freeCodeCamp",
+      "date": "2022-05-20",
+      "url": "https://www.freecodecamp.org/certification/priyasharma/responsive-web-design"
+    }
+  ]
+}

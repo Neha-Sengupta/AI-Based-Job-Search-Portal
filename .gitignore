@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Secrets: every .env file stays local; only the .env.example templates are committed
+.env
+.env.*
+!.env.example
+
+# Build output and caches
+.next/
+out/
+dist/
+build/
+coverage/
+server/.cache/
+*.tsbuildinfo
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Internal docs and assistant config (kept locally, not published)
+docs/
+learning/
+CLAUDE.md
+.claude/
+client/AGENTS.md
+client/CLAUDE.md
+*.docx

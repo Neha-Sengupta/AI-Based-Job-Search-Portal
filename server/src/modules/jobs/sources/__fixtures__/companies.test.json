@@ -1,0 +1,14 @@
+{
+  "greenhouse": [
+    { "company": "Broken Board", "token": "broken" },
+    { "company": "Groww", "token": "groww", "indian": true }
+  ],
+  "lever": [
+    { "company": "Broken Board", "token": "broken" },
+    { "company": "CRED", "token": "cred", "indian": true }
+  ],
+  "ashby": [
+    { "company": "Broken Board", "token": "broken" },
+    { "company": "Atlan", "token": "atlan", "indian": true }
+  ]
+}

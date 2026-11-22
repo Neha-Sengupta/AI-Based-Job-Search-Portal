@@ -1,0 +1,4 @@
+{
+  "{server,shared}/**/*.js": ["eslint --fix", "prettier --write"],
+  "*.{js,mjs,json,css,yml,yaml}": "prettier --write"
+}

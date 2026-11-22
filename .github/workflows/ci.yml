@@ -1,0 +1,53 @@
+# Runs on every pull request and on main. Red CI = no merge.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      # API tests use a real MongoDB (each test file gets its own throwaway database).
+      mongodb:
+        image: mongo:7
+        ports:
+          - 27017:27017
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Install headless Chrome for the PDF tests
+        working-directory: server
+        run: npx puppeteer browsers install chrome-headless-shell
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Formatting
+        run: npm run format:check
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+        env:
+          # Only used for the rewrites at build time; nothing is called.
+          API_URL: http://localhost:4000
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=high

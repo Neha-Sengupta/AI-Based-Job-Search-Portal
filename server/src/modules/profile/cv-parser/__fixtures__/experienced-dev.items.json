@@ -1,0 +1,380 @@
+[
+  {
+    "text": "ROHAN IYER",
+    "x": 45,
+    "y": 69,
+    "width": 113.01,
+    "height": 18,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Senior Software Engineer",
+    "x": 45,
+    "y": 84,
+    "width": 94.01,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Bengaluru, Karnataka • rohan.iyer@example.com • 09876543210",
+    "x": 45,
+    "y": 95.25,
+    "width": 239.34,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "https://rohaniyer.dev • linkedin.com/in/rohan-iyer",
+    "x": 45,
+    "y": 106.5,
+    "width": 175.77,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Professional Summary",
+    "x": 45,
+    "y": 130.5,
+    "width": 105.66,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Backend-focused software engineer with nine years of experience building payment and logistics platforms. Comfortable owning services",
+    "x": 45,
+    "y": 144.75,
+    "width": 499.85,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "end to end, from design reviews to on-call.",
+    "x": 45,
+    "y": 156,
+    "width": 155,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Work Experience",
+    "x": 45,
+    "y": 180,
+    "width": 78.94,
+    "height": 9.75,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Senior Software Engineer | Nimbus Cloud Solutions Pvt Ltd | Bengaluru",
+    "x": 45,
+    "y": 198,
+    "width": 281.01,
+    "height": 8.25,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Apr 2021 – Present",
+    "x": 480.15,
+    "y": 198,
+    "width": 71.09,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Led a team of four engineers building a payments reconciliation service in Node.js.",
+    "x": 50.25,
+    "y": 209.25,
+    "width": 306.47,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Cut p95 API latency from 900 ms to 250 ms by adding Redis caching.",
+    "x": 50.25,
+    "y": 219.75,
+    "width": 258.78,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Moved 30 services to Kubernetes on AWS with zero downtime.",
+    "x": 50.25,
+    "y": 231,
+    "width": 234.62,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Mentored six junior developers through code reviews and pairing.",
+    "x": 50.25,
+    "y": 242.25,
+    "width": 243.65,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Software Engineer | Infosys Ltd | Mysuru",
+    "x": 45,
+    "y": 259.5,
+    "width": 159.56,
+    "height": 8.25,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Jul 2017 – Mar 2021",
+    "x": 476.03,
+    "y": 259.5,
+    "width": 75.22,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Built REST and GraphQL APIs for a logistics client using TypeScript and PostgreSQL.",
+    "x": 50.25,
+    "y": 270.75,
+    "width": 317.33,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Wrote integration tests that raised coverage from 40% to 85%.",
+    "x": 50.25,
+    "y": 282,
+    "width": 232.48,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Automated deployments with Jenkins and Docker.",
+    "x": 50.25,
+    "y": 292.5,
+    "width": 187.25,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Associate Developer | Cognizant Technology Solutions | Chennai",
+    "x": 45,
+    "y": 309.75,
+    "width": 255.21,
+    "height": 8.25,
+    "bold": true,
+    "page": 1
+  },
+  {
+    "text": "Jan 2016 – Jun 2017",
+    "x": 474.18,
+    "y": 309.75,
+    "width": 77.07,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "• Maintained Java batch jobs for a banking client.",
+    "x": 50.25,
+    "y": 321,
+    "width": 178.99,
+    "height": 8.25,
+    "bold": false,
+    "page": 1
+  },
+  {
+    "text": "Education",
+    "x": 45,
+    "y": 913.17,
+    "width": 47.13,
+    "height": 9.75,
+    "bold": true,
+    "page": 2
+  },
+  {
+    "text": "Vellore Institute of Technology",
+    "x": 45,
+    "y": 931.17,
+    "width": 119.49,
+    "height": 8.25,
+    "bold": true,
+    "page": 2
+  },
+  {
+    "text": "2013 – 2016",
+    "x": 505.37,
+    "y": 931.17,
+    "width": 45.88,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "MCA in Computer Applications",
+    "x": 45,
+    "y": 941.67,
+    "width": 111.44,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "St. Joseph's College, Bengaluru",
+    "x": 45,
+    "y": 958.92,
+    "width": 125.74,
+    "height": 8.25,
+    "bold": true,
+    "page": 2
+  },
+  {
+    "text": "2010 – 2013",
+    "x": 505.37,
+    "y": 958.92,
+    "width": 45.88,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "BCA, 78%",
+    "x": 45,
+    "y": 970.17,
+    "width": 38.06,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "Skills",
+    "x": 45,
+    "y": 994.17,
+    "width": 25.47,
+    "height": 9.75,
+    "bold": true,
+    "page": 2
+  },
+  {
+    "text": "JavaScript | TypeScript | Node.js | React | AWS | Docker | Kubernetes | PostgreSQL | Redis | GraphQL | CI/CD",
+    "x": 45,
+    "y": 1008.42,
+    "width": 402.33,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "Certi",
+    "x": 45,
+    "y": 1032.42,
+    "width": 22.21,
+    "height": 9.75,
+    "bold": true,
+    "page": 2
+  },
+  {
+    "text": "fi",
+    "x": 67.21,
+    "y": 1032.42,
+    "width": 5.96,
+    "height": 9.75,
+    "bold": true,
+    "page": 2
+  },
+  {
+    "text": "cations",
+    "x": 73.17,
+    "y": 1032.42,
+    "width": 34.13,
+    "height": 9.75,
+    "bold": true,
+    "page": 2
+  },
+  {
+    "text": "AWS Certi",
+    "x": 45,
+    "y": 1047.42,
+    "width": 38.2,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "fi",
+    "x": 83.2,
+    "y": 1047.42,
+    "width": 4.12,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "ed Solutions Architect | Amazon Web Services | 2022",
+    "x": 87.33,
+    "y": 1047.42,
+    "width": 194,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "Certi",
+    "x": 45,
+    "y": 1058.67,
+    "width": 17.42,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "fi",
+    "x": 62.42,
+    "y": 1058.67,
+    "width": 4.12,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "ed Kubernetes Application Developer | CNCF | 2021",
+    "x": 66.54,
+    "y": 1058.67,
+    "width": 190.48,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  },
+  {
+    "text": "Hobbies",
+    "x": 45,
+    "y": 1082.67,
+    "width": 38.46,
+    "height": 9.75,
+    "bold": true,
+    "page": 2
+  },
+  {
+    "text": "Cricket, trekking, reading",
+    "x": 45,
+    "y": 1096.92,
+    "width": 91.25,
+    "height": 8.25,
+    "bold": false,
+    "page": 2
+  }
+]
