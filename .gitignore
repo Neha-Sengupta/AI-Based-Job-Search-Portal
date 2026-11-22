@@ -35,3 +35,5 @@ CLAUDE.md
 client/AGENTS.md
 client/CLAUDE.md
 *.docx
+# …except the synthetic test CVs the parser tests read
+!server/src/modules/profile/cv-parser/__fixtures__/*.docx
