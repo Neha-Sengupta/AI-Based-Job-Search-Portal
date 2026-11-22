@@ -33,7 +33,7 @@ export const JOB_LIMITS = Object.freeze({
 export const JOB_MAX_AGE_DAYS = 60;
 
 // Bump when extractRequirements or the skills dictionary changes; the import re-extracts older jobs.
-export const REQUIREMENTS_VERSION = 2;
+export const REQUIREMENTS_VERSION = 3;
 
 // Launch market: adapters keep jobs located here, or remote jobs open to it.
 export const TARGET_COUNTRIES = Object.freeze(["IN"]);

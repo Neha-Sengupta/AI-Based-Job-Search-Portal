@@ -104,6 +104,9 @@ describe("matchSkills", () => {
     ["we use r and c daily", []],
     ["Express your ideas with express", ["Express"]],
     ["Golang services", ["Go"]],
+    // Windows join words ("React JS" → React.js), so "I am" must not become IAM.
+    ["I am proud of it. I is a typo", []],
+    ["Cloud IAM and IIS servers", ["IAM", "IIS"]],
   ])("ambiguous skills match only in exact capitalisation: %j → %j", (text, expected) => {
     expect(matchSkills(text)).toEqual(expected);
   });
