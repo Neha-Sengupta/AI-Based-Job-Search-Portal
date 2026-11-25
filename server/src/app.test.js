@@ -46,6 +46,12 @@ describe("app", () => {
       expect(res.body).toEqual({ data: { status: "ok" } });
     });
 
+    it("is not rate limited, so the host's frequent health checks never get a 429", async () => {
+      pingDb.mockResolvedValueOnce(true);
+      const res = await request(app).get("/health");
+      expect(res.headers.ratelimit).toBeUndefined();
+    });
+
     it("is 503 when the database is down", async () => {
       pingDb.mockResolvedValueOnce(false);
       const res = await request(app).get("/health");

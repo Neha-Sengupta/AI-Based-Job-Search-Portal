@@ -38,12 +38,13 @@ export function createApp() {
   );
   app.use(helmet());
   app.use(cors({ origin: env.APP_URL, credentials: true }));
+  // Before the limiter: Render's health check (every few seconds) and the uptime monitor would use up the IP's quota.
+  app.use(healthRouter);
   app.use(globalLimiter);
   // Before express.json(): Better Auth reads the request body itself.
   app.all("/api/auth/*splat", toNodeHandler(auth));
   app.use(express.json({ limit: JSON_BODY_LIMIT }));
 
-  app.use(healthRouter);
   app.use("/api/v1", apiRouter);
   app.use("/internal", internalRouter);
 
